@@ -1,10 +1,21 @@
-## [In git](https://github.com/elgalu/gem-newgem/compare/v0.1.0...HEAD)
+## [In git](https://github.com/elgalu/gem-newgem/compare/v0.1.1...HEAD)
 
 ### New Features
 * n/a
 
 ### Bugfixes
 * n/a
+
+### Chores
+* Fixed gem summary typo. (Leo Gallucci)
+
+## [v0.1.1](https://github.com/elgalu/gem-newgem/tree/v0.1.1)
+
+### New Features
+* n/a
+
+### Bugfixes
+* Fixed bug regarding hardcoded ~ and replaced with Dir.home (Leo Gallucci)
 
 ### Chores
 * n/a
@@ -14,6 +25,6 @@
 ## First gem release
 
 ### Features:
-* Generate new gem skeleton based on a default or custom template (Leo Gallucci)
-* Option: \[--template TEMPLATEDIR] (Leo Gallucci)
+* Generate new gem skeleton based on a default or custom template. (Leo Gallucci)
+* Option: \[--template TEMPLATE_NAME] (Leo Gallucci)
 * Option: \[--summary "This newgem will do some fancy stuff"] (Leo Gallucci)
