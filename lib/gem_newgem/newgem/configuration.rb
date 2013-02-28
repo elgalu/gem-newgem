@@ -6,7 +6,7 @@ module GemNewgem
       include Singleton
 
       def templates_base_dir
-        "~/.newgem-templates/"
+        "#{Dir.home}/.newgem-templates/"
       end
 
       def default_template
@@ -26,10 +26,7 @@ module GemNewgem
       end
 
       def option_template_desc
-        <<-DESC.gsub(/^\s*/, '')
-        Use TEMPLATE instead of `default` template
-        By default, all templates are looked at #{templates_base_dir}
-        DESC
+        "Use TEMPLATE instead of `default`. All templates are looked at #{templates_base_dir}"
       end
 
     end
