@@ -105,7 +105,7 @@ INFO: Make branch tracking automatic
 + Show configurations found banner, then pause, then continue the bootstrap.
 + Add yaml configuration file.
 + Add support to install templates from git like [Ore][Ore custom templates] does.
-+ Add more templates to [templates][] directory.
++ Add more templates.
 + Add more integration with Bundler tasks: 'bundler/gem_tasks'
   + Then add more integration with [RubyGems API][].
 
