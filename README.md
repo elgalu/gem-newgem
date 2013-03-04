@@ -100,9 +100,10 @@ INFO: Make branch tracking automatic
 5. Check that your pull request passes the [build][travis pull requests].
 
 ### TODO
-+ Add specs so this gem can be published
-+ Make easier to use the gem as a general bootstrap tool, not just for new gems
++ Fix encoding issues in MS Windows
++ Add specs so this gem can be decent
 + Show configurations found banner, then pause, then continue the bootstrap.
++ Make easier to use the gem as a general bootstrap tool, not just for new gems
 + Add yaml configuration file.
 + Add support to install templates from git like [Ore][Ore custom templates] does.
 + Add more templates.
