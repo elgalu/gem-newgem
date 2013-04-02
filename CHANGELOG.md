@@ -1,4 +1,4 @@
-## [In git](https://github.com/elgalu/gem-newgem/compare/v0.1.2...HEAD)
+## [In git](https://github.com/elgalu/gem-newgem/compare/v0.1.3...HEAD)
 
 ### New Features
 * n/a
@@ -8,6 +8,18 @@
 
 ### Chores
 * n/a
+
+## [v0.1.3](https://github.com/elgalu/gem-newgem/tree/v0.1.3)
+
+### New Features
+* n/a
+
+### Bugfixes
+* n/a
+
+### Chores
+* Stop using thor-exclude_pattern now that thor 0.18 has been released. (Leo Gallucci)
+* Stop travis tesing ruby-head. (Leo Gallucci)
 
 ## [v0.1.2](https://github.com/elgalu/gem-newgem/tree/v0.1.2)
 
