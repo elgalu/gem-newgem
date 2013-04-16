@@ -1,9 +1,8 @@
-# gem-newgem
-<a href='http://www.pledgie.com/campaigns/19482'><img alt='Click here to lend your support to: gem-new_gem and make a donation at www.pledgie.com !' src='http://www.pledgie.com/campaigns/19482.png?skin_name=chrome' border='0' /></a>
+# gem-newgem  <a href='http://www.pledgie.com/campaigns/19482'><img alt='Click here to lend your support to: gem-new_gem and make a donation at www.pledgie.com !' src='http://www.pledgie.com/campaigns/19482.png?skin_name=chrome' border='0' /></a>
 
 ## Description
 
-This a [rubygems plugin][Gem plugins] useful to generate new gem skeleton based on a default or custom template.
+This is a [rubygems plugin][Gem plugins] useful to generate new gem skeleton based on a default or custom template.
 
 ```bash
 $ gem install gem-newgem
