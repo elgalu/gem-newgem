@@ -1,4 +1,5 @@
-# gem-newgem  <a href='http://www.pledgie.com/campaigns/19482'><img alt='Click here to lend your support to: gem-new_gem and make a donation at www.pledgie.com !' src='http://www.pledgie.com/campaigns/19482.png?skin_name=chrome' border='0' /></a>  [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/elgalu/gem-newgem/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+# gem-newgem  <a href='http://www.pledgie.com/campaigns/19482'><img alt='Click here to lend your support to: gem-new_gem and make a donation at www.pledgie.com !' src='http://www.pledgie.com/campaigns/19482.png?skin_name=chrome' border='0' /></a>  
+[![githalytics.com alpha](https://cruel-carlota.pagodabox.com/b2bc54aeb5523b878bc5c004adcd0c3d "githalytics.com")](http://githalytics.com/elgalu/gem-newgem)
 
 ## Description
 
