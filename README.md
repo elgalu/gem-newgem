@@ -20,7 +20,7 @@ Or you can use one of these tools:
 
 But i guess i just wanted to write my own ;)
 
-If you like the idea of creating creating custom generators take a look at [thor][] (used by this gem) and how to [start][] the generator from your ruby script.
+If you like the idea of creating custom generators take a look at [thor][] (used by this gem) and how to [start][] the generator from your ruby script.
 
 If you are looking to bootstrap new rails apps maybe [rails-composer][] is for you.
 
