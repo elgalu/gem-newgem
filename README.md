@@ -1,5 +1,4 @@
-# gem-newgem  <a href='http://www.pledgie.com/campaigns/19482'><img alt='Click here to lend your support to: gem-new_gem and make a donation at www.pledgie.com !' src='http://www.pledgie.com/campaigns/19482.png?skin_name=chrome' border='0' /></a>  
-[![githalytics.com alpha](https://cruel-carlota.pagodabox.com/c0f61e8aa17ee1763b4db6aaf4249450 "githalytics.com")](http://githalytics.com/elgalu/gem-newgem)
+# gem-newgem  <a href='http://www.pledgie.com/campaigns/19482'><img alt='Click here to lend your support to: gem-new_gem and make a donation at www.pledgie.com !' src='http://www.pledgie.com/campaigns/19482.png?skin_name=chrome' border='0' /></a> [![githalytics.com alpha](https://cruel-carlota.pagodabox.com/c0f61e8aa17ee1763b4db6aaf4249450 "githalytics.com")](http://githalytics.com/elgalu/gem-newgem)
 
 ## Description
 
@@ -12,13 +11,11 @@ $ gem new fancy_stuff --summary "This newgem will do some fancy stuff"
 
 ## Similar tools
 
-You can achieve pretty much the same with [bundle gem][] GEMNAME using [bundler predefined][] template.
+You can achieve pretty much the same with [bundle gem][] GEMNAME but you'll be stuck with [bundler predefined][] template. I've based my template on that but added more automation and more features.
 
-Or you can use one of these tools:
+These tools are also out there, last time I checked (Dec 2013) only [Ore][] is being maintained.
 
-[Ore][] | [RubiGen][] | [gem-init][] | [prigner][] | [gem-new][]
-
-But i guess i just wanted to write my own ;)
+[Ore][] | [RubiGen][] | [gem-init][] | [prigner][]
 
 If you like the idea of creating custom generators take a look at [thor][] (used by this gem) and how to [start][] the generator from your ruby script.
 
@@ -35,9 +32,9 @@ $ gem install gem-newgem
 Use either the long form `$ gem newgem GEMNAME` or the [short form][] `$ gem new GEMNAME`
 
 ```bash
-$ gem newgem GEMNAME [--template TEMPLATE_NAME] [--summary "This newgem will do some fancy stuff"]
+$ gem new GEMNAME [--template TEMPLATE_NAME] [--summary "This newgem will do some awesome stuff"]
 
-$ gem newgem --help
+$ gem new --help
 Usage: gem newgem GEMNAME [options]
 
   Options:
@@ -63,7 +60,7 @@ Usage: gem newgem GEMNAME [options]
     --template default --summary "TODO: Write a gem summary"
 ```
 
-You can't use templates absolute paths, so place your templates at `~/.newgem-templates/` and provide just the name of the template.
+You can't use templates absolute paths, so place your templates at `~/.newgem-templates/` and provide just the name of the template. A default template which I personally use will be placed there as a starting point, you can [fork it][newgem-template/fork] to customize your preferences.
 
 Example:
 
@@ -103,15 +100,13 @@ INFO: Make branch tracking automatic
 5. Check that your pull request passes the [build][travis pull requests].
 
 ### TODO
++ Add specs (tests) so this gem can be decent
 + Fix encoding issues in MS Windows
-+ Add specs so this gem can be decent
 + Show configurations found banner, then pause, then continue the bootstrap.
-+ Make easier to use the gem as a general bootstrap tool, not just for new gems
++ Make easier to use as a general bootstrap tool, not just for new gems
 + Add yaml configuration file.
 + Add support to install templates from git like [Ore][Ore custom templates] does.
-+ Add more templates.
 + Add more integration with Bundler tasks: 'bundler/gem_tasks'
-  + Then add more integration with [RubyGems API][].
 
 ## License
 
@@ -141,7 +136,7 @@ Released under the MIT License. See the [LICENSE][] file for further details.
 [Dependency Status]: https://gemnasium.com/elgalu/gem-newgem
 [Code Climate]: https://codeclimate.com/github/elgalu/gem-newgem
 
-[bundle gem]: http://gembundler.com/v1.2/bundle_gem.html
+[bundle gem]: http://gembundler.com/v1.5/bundle_gem.html
 [bundler predefined]: https://github.com/carlhuda/bundler/tree/master/lib/bundler/templates/newgem
 [Ore]: https://github.com/ruby-ore/ore
 [Ore custom templates]: https://github.com/ruby-ore/ore/blob/5a2d8f48db63f0a0cfd9c6c1d5d15765b0612b28/README.md#custom-templates
@@ -154,3 +149,5 @@ Released under the MIT License. See the [LICENSE][] file for further details.
 
 [RubyGems API]: http://guides.rubygems.org/rubygems-org-api/
 [rails-composer]: http://railsapps.github.com/rails-composer/
+
+[newgem-template/fork]: https://github.com/elgalu/newgem-template/fork
