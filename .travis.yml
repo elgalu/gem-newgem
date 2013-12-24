@@ -1,4 +1,13 @@
 language: ruby
+
 rvm:
   - 1.9.3
   - 2.0.0
+  - jruby-1.7.9
+  - rbx-2.2.1
+
+install:
+  - travis_retry bundle install
+
+script:
+  - bundle exec rake

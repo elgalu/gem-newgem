@@ -100,6 +100,11 @@ INFO: Make branch tracking automatic
 5. Check that your pull request passes the [build][travis pull requests].
 
 ### TODO
++ Check what parts of this tool can be replaced with [Ore][]
+    https://github.com/ruby-ore/ore#readme
+    http://postmodern.github.io/2012/05/20/you-dont-have-to-use-bundler-to-create-new-rubygems.html
++ Add cucumber features like this
+    https://github.com/drnic/newgem/blob/master/features/newgem_cli.feature
 + Add specs (tests) so this gem can be decent
 + Fix encoding issues in MS Windows
 + Show configurations found banner, then pause, then continue the bootstrap.
@@ -107,6 +112,7 @@ INFO: Make branch tracking automatic
 + Add yaml configuration file.
 + Add support to install templates from git like [Ore][Ore custom templates] does.
 + Add more integration with Bundler tasks: 'bundler/gem_tasks'
++ Add to RubyGems plugin list https://github.com/rubygems/guides/blob/gh-pages/plugins.md
 
 ## License
 

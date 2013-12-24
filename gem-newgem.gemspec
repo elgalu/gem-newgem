@@ -27,12 +27,9 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency "thor", ">= 0.18.1"
   spec.add_runtime_dependency "activesupport", ">= 3"
 
-  spec.add_development_dependency "bundler", ">= 1.2"
-  spec.add_development_dependency "rake"
-  spec.add_development_dependency "rspec", "~> 2.13"
-  spec.add_development_dependency "redcarpet", ">= 2.2"
-  spec.add_development_dependency "yard", ">= 0.8"
-  spec.add_development_dependency "simplecov", ">= 0.7"
-  spec.add_development_dependency 'coveralls', '>= 0.5.7'
+  spec.add_development_dependency 'bundler', '>= 1.3.5'
+  spec.add_development_dependency 'rake'
+  spec.add_development_dependency 'rspec', '~> 2.14', '>= 2.14.1'
+  spec.add_development_dependency 'rubygems-tasks', '~> 0.2', '>= 0.2.4'
 
 end
